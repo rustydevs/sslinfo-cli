@@ -1,0 +1,26 @@
+{
+  "name": "sslinfo-cli",
+  "version": "0.0.1",
+  "description": "A Command line interfact for the sslinfo",
+  "main": "sslinfo-cli.js",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0",
+    "lodash": "^4.17.5",
+    "sslinfo": "^0.1.8",
+    "tty-table": "2.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sslinf",
+    "cli"
+  ],
+  "bin": {
+    "sslinfo": "./sslinfo-cli.js"
+  },
+  "author": "Venkateswara VP",
+  "license": "MIT"
+}
